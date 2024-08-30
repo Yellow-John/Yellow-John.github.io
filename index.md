@@ -42,15 +42,15 @@ Stuxnet exploited several zero-day vulnerabilities in Microsoft Windows, includi
 
 Stuxnet remains a landmark in the history of cyber warfare due to its targeted approach and impact. However, several other pieces of industrial malware have emerged that offer interesting comparisons.
 
-**1. **Duqu:**
+**1. Duqu:**
    - **Similarities:** Like Stuxnet, Duqu was discovered in 2011 and was designed to gather information from industrial systems. Both were highly sophisticated and targeted specific industrial processes.
    - **Differences:** Unlike Stuxnet, Duqu did not cause physical damage. Instead, it focused on data exfiltration, particularly targeting intellectual property and sensitive information.
 
-**2. **Flame:**
+**2. Flame:**
    - **Similarities:** Flame, discovered in 2012, was another example of a highly sophisticated piece of malware used for cyber espionage. It shared similarities with Stuxnet in terms of its complexity and stealth.
    - **Differences:** Flame was more focused on data collection and surveillance rather than causing physical disruption. It also had a broader scope, affecting various sectors beyond industrial control systems.
 
-**3. **Triton (or Trisis):**
+**3. Triton (or Trisis):**
    - **Similarities:** Triton, identified in 2017, targeted industrial control systems with the aim of causing physical damage, much like Stuxnet. It also demonstrated advanced techniques for compromising critical infrastructure.
    - **Differences:** Triton was designed to disrupt safety systems and cause physical harm directly. Unlike Stuxnet, which manipulated processes to cause indirect damage, Triton aimed to directly affect safety protocols and operational integrity.
 
