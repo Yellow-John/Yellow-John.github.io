@@ -42,7 +42,7 @@ Below is a video that explains Stuxnet in detail:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wmWGtDeoW-0?si=MNGUi8MUzOWrswaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Video Credit:* This video was published by [Train GRC Academy](https://www.youtube.com/@traingrcacademy) on YouTube.
+***Video Credit:*** *This video was published by [Train GRC Academy](https://www.youtube.com/@traingrcacademy) on YouTube.*
 
 ## Impact and Consequences
 
