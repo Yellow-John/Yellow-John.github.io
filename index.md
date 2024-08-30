@@ -19,7 +19,8 @@ What makes Stuxnet particularly notable is its precision and complexity. It was 
 
 The discovery of Stuxnet not only exposed a new frontier in cyber warfare but also raised awareness about the vulnerabilities in critical infrastructure worldwide. It remains a key example of how digital tools can be weaponized in geopolitical conflicts.
 
-## Header 2
+## Technical Operation
+
 
 > This is a blockquote following a header.
 >
