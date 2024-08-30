@@ -101,7 +101,7 @@ Moreover, Stuxnet ignited a global debate on the ethics and legality of cyber wa
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### Large image
+### How Stuxnet works
 
 ![Branching](stuxnet_tech-2452.png)
 
