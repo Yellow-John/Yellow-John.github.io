@@ -2,129 +2,58 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Stuxnet Virus
 
-[Link to another page](./another-page.html).
+## Introduction to Stuxnet
 
-There should be whitespace between paragraphs.
+Stuxnet is a sophisticated piece of malware discovered in 2010 that marked a turning point in cybersecurity. Unlike typical viruses, Stuxnet was designed to target industrial control systems, specifically those used in Iran’s nuclear program. It is widely believed to have been developed by the United States and Israel to sabotage Iran's uranium enrichment capabilities.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Stuxnet's precision and complexity make it particularly notable. It was the first malware known to specifically target physical infrastructure, demonstrating how cyber weapons can have tangible effects in the real world. By exploiting multiple zero-day vulnerabilities in Windows systems, Stuxnet infiltrated and manipulated Siemens PLCs (Programmable Logic Controllers), causing centrifuges in Iran’s Natanz facility to spin out of control while reporting normal operations.
 
-# Stuxnet virus
-# Introduction to Stuxnet
+The discovery of Stuxnet exposed a new frontier in cyber warfare and raised awareness about vulnerabilities in critical infrastructure worldwide.
 
-Stuxnet is a sophisticated piece of malware discovered in 2010 that marked a turning point in the realm of cybersecurity. Unlike typical viruses, Stuxnet was designed to target industrial control systems, specifically those used in Iran’s nuclear program. It is widely believed to have been developed by the United States and Israel in a joint effort to sabotage Iran's uranium enrichment capabilities.
+## Technical Operation of Stuxnet
 
-What makes Stuxnet particularly notable is its precision and complexity. It was the first known malware to specifically target physical infrastructure, demonstrating how cyber weapons can have tangible effects in the real world. By exploiting multiple zero-day vulnerabilities in Windows systems, Stuxnet was able to infiltrate and manipulate Siemens PLCs (Programmable Logic Controllers), causing the centrifuges in Iran’s Natanz facility to spin out of control while reporting normal operations to the monitoring systems.
+Stuxnet was engineered with the clear objective of sabotaging Iran's nuclear enrichment program by targeting industrial control systems at its Natanz facility.
 
-The discovery of Stuxnet not only exposed a new frontier in cyber warfare but also raised awareness about the vulnerabilities in critical infrastructure worldwide. It remains a key example of how digital tools can be weaponized in geopolitical conflicts.
+The malware exploited multiple zero-day vulnerabilities in Microsoft Windows, spreading stealthily across networks. Its brilliance lay in its ability to identify and manipulate Siemens PLCs (Programmable Logic Controllers) which managed the centrifuges critical to uranium enrichment.
 
-## Technical operation
+Stuxnet subtly altered centrifuge functioning, causing mechanical stress that could lead to failure while feeding false data to monitoring systems. This dual strategy of physical disruption and digital deception allowed Stuxnet to cause significant damage without immediate detection.
 
+## Impact and Consequences
 
-Stuxnet stands out for its sophisticated and targeted approach, designed not just to infiltrate but to precisely disrupt specific industrial processes. Unlike conventional malware that typically spreads indiscriminately, Stuxnet was engineered with a clear objective: to sabotage Iran's nuclear enrichment program by targeting the industrial control systems at its Natanz facility.
+Stuxnet’s discovery marked a new era where cyber operations could cause physical damage. As the first documented instance of such a precise cyber weapon, Stuxnet not only disrupted Iran’s nuclear ambitions but also redefined modern conflict.
 
-The malware exploited multiple zero-day vulnerabilities in Microsoft Windows, allowing it to spread stealthily across networks. Its true brilliance, however, lay in its ability to identify and manipulate Siemens PLCs (Programmable Logic Controllers). These controllers are integral to the operation of industrial equipment, and in this case, they managed the centrifuges critical to uranium enrichment.
+It exposed vulnerabilities within critical infrastructure systems globally, compelling governments and industries to reassess cybersecurity frameworks. The operation increased tensions between Iran and Western powers and challenged existing legal frameworks concerning cyber warfare.
 
-Stuxnet was able to subtly alter the functioning of these centrifuges, causing them to deviate from their normal operational speeds. By doing so, it induced mechanical stress that could eventually lead to their failure. Simultaneously, the malware fed false data to the monitoring systems, ensuring that operators believed everything was functioning correctly. This dual strategy of physical disruption combined with digital deception allowed Stuxnet to cause significant damage without immediate detection.
+## Video Overview
 
-The technical sophistication of Stuxnet set a new benchmark in cyber warfare, demonstrating how digital attacks can have real-world consequences by specifically targeting and disrupting critical infrastructure.
-
-### Impact and consequences
-
-Stuxnet’s discovery marked a watershed moment in the history of cybersecurity, illustrating the dawn of a new era where cyber operations could effectuate tangible, physical damage. As the first documented instance of a cyber weapon designed with such precision, Stuxnet not only achieved its immediate goal of disrupting Iran’s nuclear ambitions but also redefined the parameters of modern conflict.
-
-The implications of Stuxnet resonated far beyond the immediate geopolitical context. It exposed the latent vulnerabilities within critical infrastructure systems worldwide, particularly those reliant on industrial control systems. The incident served as a wake-up call, compelling governments and industries to reassess their cybersecurity frameworks. The notion that sophisticated state-sponsored actors could covertly infiltrate and manipulate the very machinery that underpins national security sent shockwaves through both the public and private sectors.
-
-Diplomatically, Stuxnet exacerbated tensions between Iran and the Western powers, particularly the United States and Israel, who are widely believed to have orchestrated the attack. The operation underscored the increasing role of cyber capabilities as instruments of national power, blurring the lines between traditional military engagements and covert digital operations. This shift has prompted a reevaluation of international norms and strategies concerning the use of cyber weapons, as states grapple with the implications of this new mode of warfare.
-
-Moreover, Stuxnet ignited a global debate on the ethics and legality of cyber warfare. The attack challenged existing legal frameworks, raising questions about sovereignty, the proportionality of responses, and the unintended consequences of such operations. As nations continue to develop and deploy advanced cyber capabilities, the legacy of Stuxnet remains a critical reference point in discussions about the future of conflict in the digital age.
-
-
-
-#### Video overview
-
-Below is a video that provides a detailed explanation of how Stuxnet works:
+Below is a video that explains Stuxnet in detail:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wmWGtDeoW-0?si=MNGUi8MUzOWrswaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 _**Video Credit:** This video was published by [Train GRC Academy](https://www.youtube.com/@traingrcacademy) on YouTube._
 
-##### Header 5
+## Additional Information
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+| **Attribute** | **Details** |
+|:-------------|:------------|
+| **Name**     | Stuxnet     |
+| **Type**     | Malware     |
+| **Target**   | Industrial Control Systems |
+| **Discovered** | 2010 |
 
-###### Header 6
+### Lists and Code Blocks
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+**Ordered List:**
+1. Item one
+2. Item two
+3. Item three
 
-### There's a horizontal rule below this.
+**Unordered List:**
+- Item foo
+- Item bar
 
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### How Stuxnet worked
-
-![Branching](stuxnet_tech-2452.png)
-
-
-### Definition lists
-
-<dl>
-<dt>Name</dt>
-<dd>Stuxnet</dd>
-<dt>Type</dt>
-<dd>Malware</dd>
-<dt>Target</dt>
-<dd>Industrial Control Systems</dd>
-<dt>Discovered</dt>
-<dd>2010</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+**Code Example:**
+```markdown
+Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long.
