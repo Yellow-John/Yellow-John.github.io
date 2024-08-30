@@ -63,6 +63,105 @@ Stuxnet remains a landmark in cyber warfare due to its targeted approach and imp
 
 These comparisons highlight the evolution of industrial malware from data exfiltration and espionage to direct physical disruption, emphasizing the growing complexity and specialization of cyber threats in industrial settings.
 
+## Threat Intelligence Feed
+
+Below is a summary of recent threats echoing Stuxnet's techniques, providing insights into current trends in industrial cybersecurity:
+
+<div id="threat-feed">
+    <div class="threat-item">
+        <div class="date">15/07/24</div>
+        <div class="type">Zero-Day Vulnerability</div>
+        <p>A zero-day vulnerability was discovered in Siemens PLCs, similar to those exploited by Stuxnet. This flaw allowed attackers to manipulate industrial control systems and disrupt operations.</p>
+        <p><strong>Details:</strong> The vulnerability was identified in Siemens S7 PLCs, used extensively in industrial processes. Security researchers revealed that the exploit could execute arbitrary code, potentially compromising critical machinery, mirroring Stuxnet's techniques for altering industrial processes.</p>
+    </div>
+    <div class="threat-item">
+        <div class="date">22/06/24</div>
+        <div class="type">Advanced Persistent Threat (APT)</div>
+        <p>An APT campaign targeted the energy sector using techniques reminiscent of Stuxnet. The attackers aimed to infiltrate and disrupt ICS networks.</p>
+        <p><strong>Details:</strong> The APT campaign used sophisticated phishing tactics and custom malware to access ICS networks. Attackers employed lateral movement techniques to compromise critical control systems, reflecting Stuxnet’s approach to disrupting industrial control mechanisms.</p>
+    </div>
+    <div class="threat-item">
+        <div class="date">10/05/24</div>
+        <div class="type">Malware Outbreak</div>
+        <p>A new malware strain targeted industrial automation systems using advanced lateral movement techniques similar to those used by Stuxnet.</p>
+        <p><strong>Details:</strong> This malware exploited vulnerabilities in industrial control systems, including PLCs, using sophisticated evasion methods. Its goal was to manipulate processes and evade detection, demonstrating an evolution in cyber threats building on Stuxnet’s techniques.</p>
+    </div>
+</div>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stuxnet Threat Intelligence Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #threat-feed {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .threat-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .threat-item:last-child {
+            border-bottom: none;
+        }
+        .date {
+            font-weight: bold;
+        }
+        .type {
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stuxnet Virus</h1>
+    <img src="s1.jpg" alt="Stuxnet Overview">
+    
+    <h2>Threat Intelligence Feed</h2>
+    <div id="threat-feed">
+        <!-- The threat feed will be populated here -->
+    </div>
+
+    <script>
+        async function loadThreatFeed() {
+            try {
+                const response = await fetch('threats.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+
+                let feedContainer = document.getElementById('threat-feed');
+                feedContainer.innerHTML = '';
+
+                data.forEach(threat => {
+                    let threatItem = document.createElement('div');
+                    threatItem.classList.add('threat-item');
+                    threatItem.innerHTML = `
+                        <div class="date">${threat.date}</div>
+                        <div class="type">${threat.type}</div>
+                        <p>${threat.description}</p>
+                        <p><strong>Details:</strong> ${threat.details}</p>
+                    `;
+                    feedContainer.appendChild(threatItem);
+                });
+            } catch (error) {
+                console.error('Error loading threat feed:', error);
+            }
+        }
+
+        window.onload = loadThreatFeed;
+    </script>
+</body>
+</html>
+
+
 ## Impact and Consequences
 
 Stuxnet’s discovery marked a new era where cyber operations could cause physical damage. As the first documented instance of such a precise cyber weapon, Stuxnet not only disrupted Iran’s nuclear ambitions but also redefined modern conflict.
