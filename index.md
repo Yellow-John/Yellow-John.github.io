@@ -56,7 +56,6 @@ Stuxnet remains a landmark in the history of cyber warfare due to its targeted a
 
 These comparisons highlight the evolution of industrial malware from data exfiltration and espionage to direct physical disruption, emphasizing the growing complexity and specialization of cyber threats in industrial settings.
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -128,6 +127,7 @@ These comparisons highlight the evolution of industrial malware from data exfilt
     </script>
 </body>
 </html>
+
 
 
 ## Video overview
