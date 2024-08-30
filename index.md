@@ -30,7 +30,7 @@ Stuxnet was able to subtly alter the functioning of these centrifuges, causing t
 
 The technical sophistication of Stuxnet set a new benchmark in cyber warfare, demonstrating how digital attacks can have real-world consequences by specifically targeting and disrupting critical infrastructure.
 
-### Header 3
+### Impact and Consequences
 
 ```js
 // Javascript code with syntax highlighting.
