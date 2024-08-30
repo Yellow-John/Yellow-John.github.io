@@ -108,17 +108,17 @@ _**Video Credit:** This video was published by [Train GRC Academy](https://www.y
 ![Branching](stuxnet_tech-2452.png)
 
 
-### Definition lists can be used with HTML syntax.
+### Definition lists
 
 <dl>
 <dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+<dd>Stuxnet</dd>
+<dt>Type</dt>
+<dd>Malware</dd>
+<dt>Target</dt>
+<dd>Industrial Control Systems</dd>
+<dt>Discovered</dt>
+<dd>2010</dd>
 </dl>
 
 ```
