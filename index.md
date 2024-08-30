@@ -48,7 +48,7 @@ Below is a video that provides a detailed explanation of how Stuxnet works:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wmWGtDeoW-0?si=J2OmVo-rfoBzI3s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-_**Video Credit:** This video was published by [Train GRC Academy](https://www.youtube.com/channel/YOUR_CHANNEL_ID) on YouTube._
+_**Video Credit:** This video was published by [Train GRC Academy](https://www.youtube.com/@traingrcacademy) on YouTube._
 
 ##### Header 5
 
