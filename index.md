@@ -8,9 +8,9 @@ layout: default
 
 Stuxnet is a sophisticated piece of malware discovered in 2010 that marked a turning point in cybersecurity. Unlike typical viruses, Stuxnet was designed to target _industrial control systems_, specifically those used in _Iran’s nuclear program_. It is widely believed to have been developed by the _United States_ and _Israel_ to sabotage Iran's uranium enrichment capabilities.
 
-Stuxnet's _precision_ and _complexity_ make it particularly notable. It was the first malware known to specifically target _physical infrastructure_, demonstrating how cyber weapons can have tangible effects in the real world. By exploiting multiple _zero-day vulnerabilities_ in Windows systems, Stuxnet infiltrated and manipulated _Siemens PLCs_ (Programmable Logic Controllers), causing centrifuges in Iran’s Natanz facility to spin out of control while reporting normal operations.
+Stuxnet's precision and complexity make it particularly notable. It was the first malware known to specifically target _physical infrastructure_, demonstrating how cyber weapons can have tangible effects in the real world. By exploiting multiple zero-day vulnerabilities in Windows systems, Stuxnet infiltrated and manipulated _Siemens PLCs_ (Programmable Logic Controllers), causing centrifuges in Iran’s Natanz facility to spin out of control while reporting normal operations.
 
-The discovery of Stuxnet exposed a new frontier in _cyber warfare_ and raised awareness about vulnerabilities in _critical infrastructure_ worldwide.
+The discovery of Stuxnet exposed a new frontier in cyber warfare and raised awareness about vulnerabilities in _critical infrastructure_ worldwide.
 
 ## Technical Operation of Stuxnet
 
@@ -18,14 +18,14 @@ Stuxnet was engineered with the clear objective of sabotaging Iran's nuclear enr
 
 ### Vulnerabilities Exploited
 
-Stuxnet exploited several _zero-day vulnerabilities_ in Microsoft Windows, including:
+Stuxnet exploited several zero-day vulnerabilities in Microsoft Windows, including:
 - **Vulnerability A:** Specifically targeted a flaw in the Windows Print Spooler service, allowing Stuxnet to execute code with elevated privileges.
 - **Vulnerability B:** Exploited a flaw in the Windows Shell to execute arbitrary code and spread the infection.
 
 ### Infection and Propagation
 
 - **Initial Infection Vector:** Stuxnet initially spread via infected USB drives, which were introduced into the target network.
-- **Propagation Mechanism:** Once inside the network, Stuxnet used _network shares_ and _autorun files_ to propagate further, avoiding detection by conventional security measures.
+- **Propagation Mechanism:** Once inside the network, Stuxnet used network shares and autorun files to propagate further, avoiding detection by conventional security measures.
 
 ### Payload and Execution
 
@@ -34,13 +34,13 @@ Stuxnet exploited several _zero-day vulnerabilities_ in Microsoft Windows, inclu
 
 ## Impact and Consequences
 
-Stuxnet’s discovery marked a new era where _cyber operations_ could cause _physical damage_. As the first documented instance of such a precise cyber weapon, Stuxnet not only disrupted Iran’s nuclear ambitions but also redefined modern conflict.
+Stuxnet’s discovery marked a new era where cyber operations could cause physical damage. As the first documented instance of such a precise cyber weapon, Stuxnet not only disrupted Iran’s nuclear ambitions but also redefined modern conflict.
 
-It exposed vulnerabilities within _critical infrastructure systems_ globally, compelling governments and industries to reassess their _cybersecurity frameworks_. The operation increased tensions between _Iran_ and _Western powers_ and challenged existing legal frameworks concerning _cyber warfare_.
+It exposed vulnerabilities within critical infrastructure systems globally, compelling governments and industries to reassess their cybersecurity frameworks. The operation increased tensions between Iran and Western powers and challenged existing legal frameworks concerning cyber warfare.
 
 ## Chronology and Context
 
-Stuxnet emerged during a period of escalating tensions between _Iran_ and _Western countries_, particularly the _United States_ and _Israel_. The timeline of Stuxnet’s development and deployment is intertwined with the geopolitical context of _nuclear proliferation_ and _cyber warfare_.
+Stuxnet emerged during a period of escalating tensions between Iran and Western countries, particularly the United States and Israel. The timeline of Stuxnet’s development and deployment is intertwined with the geopolitical context of nuclear proliferation and cyber warfare.
 
 ### Key Events
 
@@ -52,18 +52,18 @@ Stuxnet emerged during a period of escalating tensions between _Iran_ and _Weste
 
 ### Vulnerabilities Exploited
 
-Stuxnet exploited several _zero-day vulnerabilities_ in Microsoft Windows, including:
+Stuxnet exploited several zero-day vulnerabilities in Microsoft Windows, including:
 - **Vulnerability C:** Exploited a flaw in the Windows kernel that allowed Stuxnet to execute code without user interaction.
 - **Vulnerability D:** Allowed the malware to bypass security measures by exploiting vulnerabilities in system services.
 
 ### Infection and Propagation
 
 - **Initial Infection Vector:** Stuxnet was initially delivered via infected USB drives, capitalizing on the offline nature of industrial control systems.
-- **Propagation Mechanism:** Utilized techniques such as _network file sharing_ and _email attachments_ to spread within networks undetected.
+- **Propagation Mechanism:** Utilized techniques such as network file sharing and email attachments to spread within networks undetected.
 
 ### Payload and Execution
 
-- **PLC Manipulation:** Detailed explanation of how Stuxnet used _advanced programming_ to manipulate the Siemens PLCs and alter the centrifuge operations.
+- **PLC Manipulation:** Detailed explanation of how Stuxnet used advanced programming to manipulate the Siemens PLCs and alter the centrifuge operations.
 - **Impact on Centrifuges:** Analysis of the specific changes made to centrifuge operations and their impact on the physical machinery.
 
 ## Countermeasures and Mitigations
