@@ -1,18 +1,6 @@
 title: Stuxnet Virus Analysis
 logo: /assets/img/logo.png
-description: A detailed analysis of the Stuxnet virus, its operation, and its impact on cybersecurity.
+description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
-  # Enter your Google Analytics ID here, e.g., UA-XXXXXXXXX-X
-  id: 'UA-XXXXXXXXX-X'
 theme: jekyll-theme-minimal
-
-# Options to customize the theme
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: default
-      permalink: /:categories/:year/:month/:day/:title/
-      author: "Your Name"
-      description: "In-depth insights into the Stuxnet malware and its implications."
