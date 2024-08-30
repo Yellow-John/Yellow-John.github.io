@@ -144,3 +144,17 @@ Stuxnet exploited several zero-day vulnerabilities in Microsoft Windows, includi
 - **AI and Machine Learning:** AI and machine learning technologies are increasingly used to improve threat detection, automate responses, and enhance overall cybersecurity. These technologies can analyze vast amounts of data to identify patterns and anomalies indicative of cyber threats, enabling more effective defense mechanisms.
 - **Collaborative defense:** International cooperation and information sharing are crucial in combating cyber threats. Initiatives like the Cybersecurity Information Sharing Act (CISA) in the U.S. promote collaboration between public and private sectors to improve threat intelligence and response capabilities. Developing collective defense strategies involves sharing threat data, best practices, and incident response techniques among nations and organizations.
 
+## Glossary of Technical Terms
+
+### Glossary
+
+- **Malware:** Malicious software designed to disrupt, damage, or gain unauthorized access to computer systems. Examples include viruses, worms, and trojans.
+- **Industrial Control Systems (ICS):** Systems used to control industrial processes, such as manufacturing, refining, and energy production. They include various types of control systems, including SCADA and PLC systems.
+- **Zero-Day Vulnerability:** A previously unknown security flaw that hackers can exploit before the vendor has a chance to issue a fix or patch.
+- **PLC (Programmable Logic Controller):** A digital computer used for automation of industrial processes. PLCs control machinery and processes in manufacturing plants and other industrial settings.
+- **Centrifuge:** A machine used to separate substances of different densities by spinning them at high speeds. In the context of Stuxnet, centrifuges were used in uranium enrichment.
+- **Print Spooler:** A service in Windows operating systems that manages print jobs sent to the printer. A vulnerability in this service can allow malicious code execution.
+- **Windows Shell:** The user interface for Windows operating systems, which includes the desktop and file management system. Vulnerabilities in the shell can allow attackers to execute arbitrary code.
+- **Kernel:** The core part of an operating system that manages system resources and hardware. Vulnerabilities in the kernel can allow unauthorized access to system functions.
+- **Network Shares:** Folders or files on a network that are accessible by other computers or users. Malware can spread by exploiting these shared resources.
+- **Autorun Files:** Files that execute automatically when a removable device, like a USB drive, is connected to a computer. These files can be used to spread malware.
