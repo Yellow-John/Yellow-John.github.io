@@ -56,6 +56,80 @@ Stuxnet remains a landmark in the history of cyber warfare due to its targeted a
 
 These comparisons highlight the evolution of industrial malware from data exfiltration and espionage to direct physical disruption, emphasizing the growing complexity and specialization of cyber threats in industrial settings.
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stuxnet Threat Intelligence Feed</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #threat-feed {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .threat-item {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .threat-item:last-child {
+            border-bottom: none;
+        }
+        .date {
+            font-weight: bold;
+        }
+        .type {
+            color: #ff5722;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stuxnet Virus</h1>
+    <img src="s1.jpg" alt="Stuxnet Overview">
+    
+    <h2>Threat Intelligence Feed</h2>
+    <div id="threat-feed">
+        <!-- The threat feed will be populated here -->
+    </div>
+
+    <script>
+        async function loadThreatFeed() {
+            try {
+                const response = await fetch('threats.json');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+
+                let feedContainer = document.getElementById('threat-feed');
+                feedContainer.innerHTML = '';
+
+                data.forEach(threat => {
+                    let threatItem = document.createElement('div');
+                    threatItem.classList.add('threat-item');
+                    threatItem.innerHTML = `
+                        <div class="date">${threat.date}</div>
+                        <div class="type">${threat.type}</div>
+                        <p>${threat.description}</p>
+                    `;
+                    feedContainer.appendChild(threatItem);
+                });
+            } catch (error) {
+                console.error('Error loading threat feed:', error);
+            }
+        }
+
+        window.onload = loadThreatFeed;
+    </script>
+</body>
+</html>
+
+
 ## Video overview
 
 Below is a video that explains Stuxnet in detail:
