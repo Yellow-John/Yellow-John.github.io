@@ -34,6 +34,14 @@ Stuxnet exploited several zero-day vulnerabilities in Microsoft Windows, includi
 - **PLC Manipulation:** Stuxnet specifically targeted the Siemens S7-300 PLCs, which are used to control industrial processes. The malware altered the PLC’s instructions to change the speed of the centrifuges, manipulating their rotational speeds to cause damage. It used sophisticated programming techniques to avoid detection and ensure that the modifications were only applied under specific conditions, such as particular configurations and operational states of the PLCs.
 - **Impact on Centrifuges:** The malware caused the centrifuges to spin at varying speeds, creating mechanical stress that ultimately led to their physical destruction. The damage was carefully orchestrated to ensure that while the centrifuges were failing, the control systems and monitoring software reported normal operation, thus delaying the discovery of the sabotage.
 
+## Video Overview
+
+Below is a video that explains Stuxnet in detail:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wmWGtDeoW-0?si=MNGUi8MUzOWrswaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+*Video Credit:* This video was published by [Train GRC Academy](https://www.youtube.com/@traingrcacademy) on YouTube.
+
 ## Impact and Consequences
 
 Stuxnet’s discovery marked a new era where cyber operations could cause physical damage. As the first documented instance of such a precise cyber weapon, Stuxnet not only disrupted Iran’s nuclear ambitions but also redefined modern conflict.
@@ -113,12 +121,4 @@ Stuxnet exploited several zero-day vulnerabilities in Microsoft Windows, includi
 
 - **AI and Machine Learning:** AI and machine learning technologies are increasingly used to improve threat detection, automate responses, and enhance overall cybersecurity. These technologies can analyze vast amounts of data to identify patterns and anomalies indicative of cyber threats, enabling more effective defense mechanisms.
 - **Collaborative Defense:** International cooperation and information sharing are crucial in combating cyber threats. Initiatives like the Cybersecurity Information Sharing Act (CISA) in the U.S. promote collaboration between public and private sectors to improve threat intelligence and response capabilities. Developing collective defense strategies involves sharing threat data, best practices, and incident response techniques among nations and organizations.
-
-## Video Overview
-
-Below is a video that explains Stuxnet in detail:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wmWGtDeoW-0?si=MNGUi8MUzOWrswaq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-**Video Credit:** This video was published by [Train GRC Academy](https://www.youtube.com/@traingrcacademy) on YouTube.
 
