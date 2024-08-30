@@ -4,6 +4,8 @@ layout: default
 
 # Stuxnet Virus
 
+![Stuxnet Overview](s1.jpg)
+
 ## Introduction to Stuxnet
 
 Stuxnet is a sophisticated piece of malware discovered in 2010 that marked a turning point in cybersecurity. Unlike typical viruses, Stuxnet was designed to target industrial control systems (ICS), specifically those used in Iran’s nuclear program. It is widely believed to have been developed by the United States and Israel to sabotage Iran's uranium enrichment capabilities.
