@@ -4,7 +4,6 @@ layout: default
 
 # Stuxnet Virus
 
-![Stuxnet Overview](s1.jpg)
 
 ## Introduction to Stuxnet
 
