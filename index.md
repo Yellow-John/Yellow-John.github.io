@@ -19,7 +19,7 @@ What makes Stuxnet particularly notable is its precision and complexity. It was 
 
 The discovery of Stuxnet not only exposed a new frontier in cyber warfare but also raised awareness about the vulnerabilities in critical infrastructure worldwide. It remains a key example of how digital tools can be weaponized in geopolitical conflicts.
 
-## Technical Operation
+## Technical operation
 
 
 Stuxnet stands out for its sophisticated and targeted approach, designed not just to infiltrate but to precisely disrupt specific industrial processes. Unlike conventional malware that typically spreads indiscriminately, Stuxnet was engineered with a clear objective: to sabotage Iran's nuclear enrichment program by targeting the industrial control systems at its Natanz facility.
@@ -30,7 +30,7 @@ Stuxnet was able to subtly alter the functioning of these centrifuges, causing t
 
 The technical sophistication of Stuxnet set a new benchmark in cyber warfare, demonstrating how digital attacks can have real-world consequences by specifically targeting and disrupting critical infrastructure.
 
-### Impact and Consequences
+### Impact and consequences
 
 Stuxnet’s discovery marked a watershed moment in the history of cybersecurity, illustrating the dawn of a new era where cyber operations could effectuate tangible, physical damage. As the first documented instance of a cyber weapon designed with such precision, Stuxnet not only achieved its immediate goal of disrupting Iran’s nuclear ambitions but also redefined the parameters of modern conflict.
 
@@ -101,7 +101,7 @@ Moreover, Stuxnet ignited a global debate on the ethics and legality of cyber wa
 
 ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-### How Stuxnet works
+### How Stuxnet worked
 
 ![Branching](stuxnet_tech-2452.png)
 
